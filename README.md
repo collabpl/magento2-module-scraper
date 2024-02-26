@@ -18,7 +18,7 @@ public function __construct(
     $this->scraperService = $scraperService;
 }
 ...
-public function getScrapedData(): \Spekulatius\PHPScraper\Scraper
+public function getScrapedData(): ?string
 {
     $url = 'https://www.example.com';
     $data = $this->scraperService->go($url);
