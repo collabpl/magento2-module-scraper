@@ -1,6 +1,6 @@
 {
     "name": "collab/module-scraper",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple wrapper for the phpscraper library which provides Magento Service for scraping web pages.",
     "type": "magento2-module",
     "authors": [
