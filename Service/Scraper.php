@@ -23,7 +23,7 @@ class Scraper
     public function getSource(string $url): PHPScraper
     {
         return $this->scraper->setConfig([
-            'agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0'
+            'agent' => 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/124.0.0.0 Safari/537.36'
         ])->go($url);
     }
 }
